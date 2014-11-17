@@ -4,7 +4,6 @@
   "description": "Fetcher for beautiful google earth images",
   "main": "index.js",
   "dependencies": {
-    "base64": "^2.1.0",
     "request": "^2.45.0"
   },
   "devDependencies": {},
