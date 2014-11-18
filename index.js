@@ -5,11 +5,11 @@ var request = require('request');
 var async = require('async');
 
 // Globals
-var OUT_DIR = path.join(__dirname, 'pictures');
+var OUT_DIR = path.join(__dirname, 'pretty-earth');
 var imageIds = require('./imageIds.json');
 
-if ( !fs.existsSync("./pictures") ) {
-  fs.mkdirSync("./pictures");
+if ( !fs.existsSync("./pretty-earth") ) {
+  fs.mkdirSync("./pretty-earth");
 }
 
 
